@@ -1,0 +1,30 @@
+
+1.Filtering the rows in database
+================================
+
+select * from employee.employees where salary > 30000
+
+2.Display a Particular data in a specific letters
+=================================================
+
+select First_Name from employees where First_Name like 'j%'
+
+3.Delete A Particular column
+========================
+use employee;
+
+alter table details
+
+drop column salary
+
+4.Add New Row in Existing table
+=================================
+alter table details add(monitor varchar(5));
+
+5.Update existing column
+=======================
+alter table details modify column SNO varchar(10);
+
+6.Rename the existing Column name
+==================================
+alter table details rename column SNO to SINO
